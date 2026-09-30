@@ -1,0 +1,36 @@
+{
+  "name": "prueba-pablonavas",
+  "version": "1.0.0",
+  "description": "sistema de postulaciones de andidatos a sus vacantes",
+  "keywords": [
+    "vacantes",
+    "nodejs",
+    "sql",
+    "trabajos"
+  ],
+  "license": "ISC",
+  "author": "pablo navas",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "mongoose": "^9.10.3",
+    "morgan": "^1.12.1",
+    "pg": "^8.23.1",
+    "prettier": "^3.9.9",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.3.0"
+  }
+}
